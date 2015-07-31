@@ -23,5 +23,5 @@ def approximate_size(size, a_kilobyte_is_1024_bytes=True):
     raise ValueError('Number is too large')
 
 if __name__ == '__main__':
-    print(approximate_size(1234567890, False))
-    print(approximate_size(1234567890))
+    print(approximate_size(123456789.0, False))
+    print(approximate_size(123456789.0))

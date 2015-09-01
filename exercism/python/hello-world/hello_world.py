@@ -4,4 +4,8 @@
 
 
 def hello(name=''):
-    return
+	default = 'World'
+	if name == '':
+		name = default
+	return "Hello, " + name + "!"
+
